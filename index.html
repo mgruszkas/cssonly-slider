@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS-only slider</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="bower_components/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="css/home.css" rel="stylesheet"/>
+</head>
+<body>
+<input type="radio" autofocus checked="checked" name="slide" id="slide1" class="scroller slide1"/>
+<input type="radio" name="slide" id="slide2" class="scroller slide2"/>
+<input type="radio" name="slide" id="slide3" class="scroller slide3"/><a href="#" id="scroll-link">
+    <label for="slide2"><i class="fa fa-chevron-down slider-icon"></i></label></a>
+
+<div class="paralax">
+    <section class="row slide slide-1">
+        <div class="col col-sm-8 col-sm-offset-2">
+            <div class="front">
+                <h2>This is totally JavaScript-free slider.</h2>
+            </div>
+            <div class="back">
+                <h3>U can navigate using arrows or dots on right-hand side</h3>
+
+            </div>
+            <span>photo by <a href="https://www.flickr.com/photos/lulek/" target="_blank">lulek</a></span>
+        </div>
+    </section>
+    <section class="row slide slide-2">
+        <label for="slide1"><i class="fa fa-chevron-down slider-icon"></i></label>
+        <label for="slide3"><i class="fa fa-chevron-down slider-icon"></i></label>
+
+        <div class="col col-sm-8 col-sm-offset-2">
+            <div class="front">
+                <h2>This slides contain also paralax-like behaviour.</h2>
+            </div>
+            <div class="back">
+                <h3>Unfortunatelly scrolling is disabled because this feature demands a little bit of javascript...</h3>
+
+            </div>
+            <span>photo by <a href="https://www.flickr.com/photos/smif/" target="_blank">smif</a></span>
+        </div>
+    </section>
+    <section class="row slide slide-3">
+        <div class="col col-sm-8 col-sm-offset-2">
+            <div class="front">
+                <h2>CSS3 rules!</h2>
+            </div>
+            <div class="back">
+                <h3>For more CSS3 tricks please visit my GitHub account.</h3>
+
+            </div>
+            <span>photo by <a href="https://www.flickr.com/photos/lulek/" target="_blank">lulek</a></span>
+        </div>
+    </section>
+</div>
+</body>
+</html>

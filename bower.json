@@ -1,0 +1,22 @@
+{
+  "name": "CSS-only paralax-slider",
+  "authors": [
+    "mgruszkas"
+  ],
+  "description": "Photo slider without any JavaScript. Only Css3",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.5.0",
+    "bootstrap": "^3.3.6"
+  }
+}
